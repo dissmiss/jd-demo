@@ -1,0 +1,492 @@
+@charset "utf-8";
+
+/*超链接颜色*/
+a{
+    color: #666;
+}
+
+/*顶部盒子 start*/
+.top{
+    background-color: #F1F1F1;
+    height: 30px; 
+}
+/*顶部灰色长条*/
+.top_page{
+    width: 1210px;
+    height: 30px;
+    margin: 0 auto;
+}
+/*顶部左侧文字*/
+.top_page_left{
+    line-height: 30px;
+}
+/*顶部右侧文字*/
+.top_page_right ul li{
+    float: left;
+    padding-right: 10px;
+    line-height: 30px;
+}
+/*顶部盒子 end*/
+
+
+/*顶部广告条 start*/
+.topImg{
+    background: url(../image/topImg.jpg);
+    width: 1210px;
+    height: 120px;
+    margin: 0 auto;
+}
+/*广告条下面的红色背景*/
+.topImgBg{
+    background-color: #FF0119;
+    height: 120px;
+}
+/*顶部广告条 end*/
+
+
+/*京东 logo部分 start*/
+.logoBar{
+    width: 1210px;
+    height: 100px;
+    margin: 0 auto;
+    /*background: green;*/
+}
+
+/*logo 外部盒子*/
+.logoBg{
+    width:362px;
+    height: 60px;
+    padding: 20px 0;
+}
+/*logo 图片*/
+.logoImg{
+    width: 270px;
+    height: 60px;
+    background: url(../image/jdlogo.png) no-repeat;
+}
+
+/*搜索框外部盒子*/
+#search{
+    width:538px;
+    height: 40px;
+    margin-top: 25px;   
+}
+/*搜索框*/
+.logo_input{
+    width: 446px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-width: 2px 0 2px 2px;
+    border-color: #B61D1D;
+    border-style: solid;
+    outline: 0;
+    font-size: 14px;
+    font-family: "microsoft yahei";  
+}
+/*搜索按钮*/
+.logo_search_btn{
+    width: 82px;
+    height: 36px;
+    background: #B61D1D;
+    border: none;
+    line-height: 1;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;  
+}
+
+/*购物车外部盒子*/
+.settleup{
+    width: 141px;
+    height: 36px;
+    margin-top: 25px;
+    margin-right: 65px;
+}
+/*购物车背景*/
+.ci-icon{
+    position: relative;
+    width: 75px;
+    height: 34px;
+    border: 1px solid #DFDFDF;
+    padding: 0 28px 0 36px;
+    background: #F9F9F9;
+    text-align: center;
+    line-height: 34px;
+}
+/*购物车图片*/
+.ci-left{
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    width: 18px;
+    height: 16px;
+    background: url(../image/jd2015img.png) 0 -58px no-repeat ;  
+}
+/*购物车右侧>*/
+.ci-right{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    width: 7px;
+    height: 13px;
+    font: 400 13px/13px simsun;
+    color: #999; 
+}
+
+/*搜索框下方关键词*/
+.hotwords{
+    float: left;
+    width: 462px;
+    height: 20px;
+    line-height: 20px;
+}
+.hotwords ul li{
+    float: left;
+    padding-right: 20px; 
+}
+/*京东 logo部分 end*/
+
+
+/* 搜索框下方 导航部分 start*/
+
+/*导航栏红线*/
+.nav{
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.items-bg{
+    position: relative;
+    width: 1210px;
+    height: 44px;
+    margin: 0 auto; 
+}
+#all-goods{
+    display: block;
+    float: left;
+    width: 190px;
+    height: 44px;
+    padding: 0 10px;
+    background: #B1191A;
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+    text-decoration: none
+}
+.nav-item{
+    padding-left: 30px;
+    width: 676px;
+    float: left;
+    height: 44px;
+}
+.nav-item ul li{
+    float: left;
+    line-height: 44px;
+    padding: 0 20px;
+    text-decoration: none;
+    font: 400 15px/44px "microsoft yahei";
+    color: #333;
+}
+
+/*导航栏右侧618图片*/
+.treasure{
+    float: left;
+    width: 174px;
+    height: 39px;
+    margin-left: 50px;
+    background: url(../image/618.jpg);
+
+}
+
+/* 搜索框下方 导航部分 end*/
+
+/* 网页底部背景*/
+.background{
+    position: relative;
+}
+.background a{
+    height: 613px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    z-index: 1;
+    background: url(../image/bg.jpg) no-repeat center top;
+}
+
+
+/*中间部分 start*/
+
+/*中间部分父盒子*/
+.category-bg{
+    position: relative;
+    width: 1210px;
+    height: 633px;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+/*右侧分类父盒子*/
+.category{
+    width: 210px;
+    float: left;
+}
+.category ul li{
+    position: relative;
+    height: 30px;
+}
+/*单个分类项*/
+.category ul li a{
+    display: block;
+    padding: 0 10px;
+    background: #C81623;
+    font: 100 13px/44px "microsoft yahei";
+    color: #fff;
+    text-decoration: none;
+}
+/* > 符号*/
+.category ul li i{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    width: 4px;
+    height: 14px;
+    font: 400 9px/14px consolas;
+    color: #fff;
+}
+/*中间大图父盒子*/
+.centerImg{
+    float: left;
+    margin-left:10px;
+    margin-top: 10px;
+}
+.centerImg img{
+    width: 730px;
+    height: 454px;
+}
+
+/*右侧公告新闻父盒子*/
+.news{
+    position: absolute;
+    width: 248px;
+    height: 164px;
+    right: 0;
+    top: 10px;
+    border: solid 1px #e4e4e4;
+    border-bottom: 0;
+}
+#mt{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+#mt h2{
+    float: left;
+    font-size: 16px;
+}
+
+/*每条新闻*/
+.mc{
+    border-top: 1px dotted #E8E8E7;
+    height: 120px; 
+    padding: 15px 0 0 15px;
+}
+.news .mc li {
+     width: 210px;
+}
+.news li span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.more{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+/*新闻下方12个九宫格父盒子*/
+.life-service{
+    position: absolute;
+    width: 248px;
+    height: 206px;
+    position: absolute;
+    top: 176px;
+    right: 0;
+    border: solid 1px #e4e4e4;
+    overflow: hidden;
+}
+.life-service ul{
+    width: 260px;
+}
+.life-service li{
+    position: relative;
+    float: left;
+    display: inline;
+    height: 70px;
+    border-right: 1px solid #E8E8E7;
+    border-bottom: 1px solid #E8E8E7; 
+}
+.life-service li a{
+    display: block;
+    width: 62px;
+    padding-top: 41px;
+    line-height: 28px;
+    text-align: center;
+}
+.life-img{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../image/life.png) no-repeat 0 -75px;
+}
+
+/*九宫格下方图片父盒子*/
+.right-pic{
+    position: absolute;
+    right: 0;
+    background: rgba(255,255,255,.85);
+    top: 388px;
+}
+.right-pic img{
+    width: 250px;
+    height: 75px;
+}
+
+/*分类下方的一列图片父盒子*/
+.t-bg{
+    /*position: relative;*/
+    float: left;
+    top: 5px;
+    width: 1210px;
+    height: 164px;
+    margin: 0 auto;  
+}
+.t-left a{
+    position: absolute;
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url(../image/t-left.jpg);
+}
+.t-right{
+    position: absolute;
+    width: 1000px;
+    height: 164px;
+    left: 210px;
+}
+.t-right li a{
+    display: inline-block;
+    width: 249px;
+    height: 164px;
+    margin-right: 1px;
+    background: black;
+    float: left;
+}
+/*中间部分 end*/
+
+/*底部 start*/
+
+/*底部父盒子*/
+.bottom{
+    height: 275px;
+    margin: 0 auto;
+}
+/*底部四图父盒子*/
+.slogan{
+    position: relative;
+    height: 54px;
+    padding: 20px 0;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+.slogan ul{
+   width: 1210px;
+   margin: 0 auto;
+}
+.slogan li{
+    display: inline-block;
+    margin-left: 60px;
+}
+/*底部多快好省四张图片*/
+#a{
+    display: block;
+    top: 0;
+    left: 10px;
+    width: 220px;
+    height: 54px;
+    background-position: 0 0;
+    background: url(../image/a.png) no-repeat;
+}
+#b{
+    display: block;
+    top: 0;
+    left: 10px;
+    width: 220px;
+    height: 54px;
+    background-position: 0 0;
+    background: url(../image/b.png) no-repeat;
+}
+#c{
+   display: block;
+    top: 0;
+    left: 10px;
+    width: 220px;
+    height: 54px;
+    background-position: 0 0;
+    background: url(../image/c.png) no-repeat;
+}
+#d{
+    display: block;
+    top: 0;
+    left: 10px;
+    width: 220px;
+    height: 54px;
+    background-position: 0 0;
+    background: url(../image/d.png) no-repeat;
+}
+
+/*底部文字父盒子*/
+.bottom-bar{
+    position: relative;
+    left: 30px;
+    width: 1210px;
+    height: 168px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E8E8E7;
+}
+.bottom-bar dl{
+    display: inline-block;
+    float: left;
+    margin-right: 55px;
+    margin-left: 5px;
+    width: 110px;
+}
+.bottom-bar dl dt{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font:400 16px/24px "microsoft yahei";
+}
+/*右下方中国地图父盒子*/
+.coverage{
+    float: left;
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 310px;
+    height: 168px;
+    background: url(../image/20130330B_1.png) no-repeat 60px -131px;
+}
+.coverage .dt{
+    padding: 0px 40px 15px 80px;
+    font: 400 16px/24px "microsoft yahei"     
+}
+.coverage .dd{
+    padding: 0 40px 15px 80px;
+}
